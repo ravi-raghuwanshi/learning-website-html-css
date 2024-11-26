@@ -1,7 +1,10 @@
 body html{
     height: 100%;
 }
-
+*{
+    margin: 0%;
+    padding: 0%
+}
 .hero-image{
     align-items: center;
     align-content: center;
@@ -25,8 +28,23 @@ button{
 
 }
 
-.form{
+
+nav{
+    box-shadow: 5px 5px 5px rgba(128, 9, 9, 0.1);
+    margin: 15px;
+    padding: 15px;
+  box-sizing: 100% 15%
+}
+
+nav ul{
+    width: 100%;
     
-    align-content: center;
-    padding-left: 40%;
+    list-style: none;
+    display: flex;
+    display: flex-end
+}
+nav a{
+    margin: 15px;
+    padding:15px;
+    
 }
